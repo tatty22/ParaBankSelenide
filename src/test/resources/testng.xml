@@ -1,0 +1,13 @@
+<suite name="SelenideAutoTests" verbose="1">
+
+    <listeners>
+        <listener class-name="TestListener"/>
+    </listeners>
+
+    <test name="Tests">
+        <classes>
+            <class name="LoginTest" />
+        </classes>
+    </test>
+
+</suite>
