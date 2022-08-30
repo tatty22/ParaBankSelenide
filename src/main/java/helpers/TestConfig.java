@@ -2,7 +2,7 @@ package helpers;
 
 public class TestConfig {
     public static String browser = "chrome";
-    public static String headless = "1";
+    public static String headless = "0";
     public static final String PATH_TO_ERRORS_LOG = "report/errors.log";
     public static String dimension = "1920x1080";
 
