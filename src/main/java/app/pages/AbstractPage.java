@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriverException;
 
 public abstract class AbstractPage {
     protected String pageUrl;
-    private final static int MAX_RETRY_COUNT = 5;
+    private final static int MAX_RETRY_COUNT = 10;
 
     public AbstractPage(String pageUrl) {
         this.pageUrl = pageUrl;
